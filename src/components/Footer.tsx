@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
                         <p className="text-sm">The world's first 100% decentralized matrix platform</p>
                     </div>
                     <div className="grid grid-cols-2  text-sm">
-                        <div className="flex flex-col ">
+                        <div className="flex flex-col text-left">
                             <p style={pStyle}>x3 / x4 eth</p>
                             <p style={pStyle}>0x5acc...FB97</p>
                             <p style={pStyle}>xGold eth</p>
@@ -50,7 +50,7 @@ const Footer: React.FC = () => {
                             <p style={pStyle}>xGold tron</p>
                             <p style={pStyle}>TA6p1B...</p>
                         </div>
-                        <div className="flex flex-col ">
+                        <div className="flex flex-col text-left">
                             <p style={pStyle}>x3 / x4 busd</p>
                             <p style={pStyle}>0x5acc...FB97</p>
                             <p style={pStyle}>xXx busd</p>
