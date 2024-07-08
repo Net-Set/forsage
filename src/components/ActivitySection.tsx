@@ -15,7 +15,7 @@ const activities = [
 const ActivitySection: React.FC = () => {
   return (
     <section className="py-16 bg-gradient-to-b from-orange-400 to-purple-600">
-      <div className="max-w-4xl mx-auto text-center text-white">
+      <div className="max-w-4xl mx-auto text-center text-white px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl font-bold mb-4">Platform Recent Activity</h2>
         <p className="text-lg mb-8">Real-time global events of the FORSAGE Platform</p>
         <div className="bg-black rounded-lg overflow-hidden shadow-lg">
@@ -38,26 +38,26 @@ const ActivitySection: React.FC = () => {
           <button className="w-full p-4 bg-gray-800 text-white font-semibold hover:bg-gray-700">See more</button>
         </div>
       </div>
-      <h2 className="text-white text-3xl mt-10 font-bold mb-4">Partner Results</h2>
-      <p className="text-white">All data is stored in the blockchain in the public domain and can be verified!
-Contract address eth:
-0x5acc84a3e955Bdd76467d3348077d003f00fFB97
-Contract address tron:
-TREbha3Jj6TrpT7e6Z5ukh3NRhyxHsmMug
-Contract address busd:
-0x5acc84a3e955Bdd76467d3348077d003f00fFB97</p>
-      <div className="text-white mt-8 flex justify-around">
-        <div>
-          <span className="block text-4xl font-bold">1,756,920</span>
-          <span>Accounts Created</span>
-        </div>
-        <div>
-          <span className="block text-4xl font-bold">22,631</span>
-          <span>Total Invested, BNB</span>
-        </div>
-        <div>
-          <span className="block text-4xl font-bold">149,386,219</span>
-          <span>Total Payout, BUSD</span>
+      <div className="text-center text-white mt-10">
+        <h2 className="text-3xl font-bold mb-4">Partner Results</h2>
+        <p>All data is stored in the blockchain in the public domain and can be verified!<br/>
+          Contract address eth: 0x5acc84a3e955Bdd76467d3348077d003f00fFB97<br/>
+          Contract address tron: TREbha3Jj6TrpT7e6Z5ukh3NRhyxHsmMug<br/>
+          Contract address busd: 0x5acc84a3e955Bdd76467d3348077d003f00fFB97
+        </p>
+        <div className="mt-8 flex flex-col sm:flex-row justify-around">
+          <div className="mb-6 sm:mb-0">
+            <span className="block text-4xl font-bold">1,756,920</span>
+            <span>Accounts Created</span>
+          </div>
+          <div className="mb-6 sm:mb-0">
+            <span className="block text-4xl font-bold">22,631</span>
+            <span>Total Invested, BNB</span>
+          </div>
+          <div>
+            <span className="block text-4xl font-bold">149,386,219</span>
+            <span>Total Payout, BUSD</span>
+          </div>
         </div>
       </div>
     </section>
